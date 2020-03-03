@@ -144,6 +144,9 @@ h4,
 h5 {
   font-family: 'Alfa Slab One', sans-serif;
 }
+h1 {
+  font-size: 4.4rem;
+}
 h2 {
   font-size: 3.2rem;
 }
@@ -289,5 +292,48 @@ nav .imgLogo {
 footer {
   padding: 1%;
   color: #FFF9FB;
+  text-align: center;
+}
+.about {
+  display: flex;
+  justify-content: space-evenly;
+}
+.about img {
+  width: 30%;
+}
+.about div {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 30%;
+}
+.trust {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: 0 auto;
+  justify-content: center;
+  text-align: center;
+}
+.trust h2 {
+  text-align: center;
+}
+.save {
+  display: flex;
+  justify-content: space-evenly;
+}
+.save img {
+  width: 30%;
+  height: 500px;
+}
+.save div {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 30%;
+}
+footer {
+  padding: 1%;
+  color: black;
   text-align: center;
 }
