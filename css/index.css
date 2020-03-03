@@ -1,0 +1,228 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+html,
+body {
+  font-family: 'Volkhov', sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Alfa Slab One', sans-serif;
+}
+h2 {
+  font-size: 3.2rem;
+}
+h3 {
+  font-size: 2.8rem;
+}
+p {
+  font-size: 1.6rem;
+  line-height: 1.4;
+}
+.container {
+  max-width: 100%;
+  width: 100%;
+  margin: 0 auto;
+}
+nav {
+  width: 100%;
+  height: 10vh;
+  background-image: linear-gradient(to right top, #930000, #8a0001, #810102, #790103, #700203, #700203, #700203, #700203, #790103, #810102, #8a0001, #930000);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+nav a {
+  font-size: 25px;
+  font-family: "Volkhov";
+  color: #37393A;
+  text-decoration: none;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+}
+nav .imgLogo {
+  width: 5%;
+  height: 10vh;
+  display: flex;
+}
+.home {
+  background-color: #1B2021;
+}
+.home header {
+  width: 100%;
+  padding: 1%;
+  display: flex;
+  justify-content: column;
+  flex-wrap: wrap;
+}
+.home header .homeBlip {
+  height: 30vh;
+  width: 25%;
+  margin: 7% 5% 7% 15%;
+}
+.home header .homeBlip h1 {
+  font-size: 3.5rem;
+  text-align: center;
+  padding: 2%;
+  color: #575C55;
+}
+.home header .homeBlip p {
+  padding: 3%;
+  display: flex;
+  color: #575C55;
+}
+.home header .homeImg {
+  height: 60vh;
+  padding: 1%;
+  border: 3px solid #550C18;
+  display: flex;
+}
+.body {
+  width: 50%;
+  display: flex;
+  flex-flow: column wrap;
+  padding: 3% 0%;
+}
+.body h2 {
+  text-align: center;
+  padding: 1%;
+}
+.pics .picBlockOne {
+  margin: 0% 50%;
+  display: flex;
+  flex-direction: column;
+}
