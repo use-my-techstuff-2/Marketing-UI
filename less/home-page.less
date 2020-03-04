@@ -84,8 +84,12 @@
     h2 {
         text-align: center;
         padding: 1%;
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: #292c2d;
     }
     p {
+        .text(@site-white);
+    
     @media @phone {
         padding: 2%;
         text-align: center;
@@ -107,7 +111,8 @@
     h3 {
         .text(@text-color);
         font-size: 27px;
-        //border: 1px solid white;
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: #292c2d;
         @media @phone {
             display: none;
         }
@@ -175,6 +180,8 @@
     }
     h3 {
         .text(@text-color);
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: #292c2d;
     }
     p {
         .text(@text-color);
