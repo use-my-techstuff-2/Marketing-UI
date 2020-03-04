@@ -1,0 +1,57 @@
+.contactPage {
+    background-color: #292c2d;
+    background-image: linear-gradient(147deg, #292c2d 0%, #0d0e0e 37%, #292c2d 100%);
+
+    header{
+        padding: 7% 10% 3% 10%;
+        
+        h1 {
+            .text(@site-white);
+        }
+        p {
+            .text(@site-white);
+            width: 50%;
+            margin-left: 24%;
+        }
+    }
+    .contact {
+        height: 75vh;
+        display: flex;
+        justify-content: center;
+    }
+    form {
+        
+        height: 60vh;
+        width: 50%;
+        padding: 1%;
+        input[type=text], select, textarea {
+            width: 100%;
+            padding: 12px;
+            border-radius: 4px;
+        }
+        label {
+            .text(@site-white);
+            font-size: 25px;
+            width: 20%;
+            display: flex;
+            justify-content: center;
+            padding: 3% 2% 1% 2%;
+        }
+        .messageBox {
+
+        }
+        .btn {
+            margin: 3% 0% 0% 42%;
+            padding: 20px 50px;
+            color: @site-white;
+            background-color: @site-red;
+            border-radius: 4px;
+            border: none;
+        }
+        .btn:hover {
+            color: @site-red;
+            background-color: @site-white;
+        }
+
+    }
+}

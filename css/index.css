@@ -269,6 +269,8 @@ nav .imgLogo {
   text-align: center;
   padding: 2%;
   color: #FFF9FB;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #292c2d;
 }
 @media (max-width: 500px) {
   .home header .homeBlip h1 {
@@ -619,4 +621,83 @@ footer {
   color: white;
   text-align: center;
   background-color: #292c2d;
+}
+.contactPage {
+  background-color: #292c2d;
+  background-image: linear-gradient(147deg, #292c2d 0%, #0d0e0e 37%, #292c2d 100%);
+}
+.contactPage header {
+  padding: 7% 10% 3% 10%;
+}
+.contactPage header h1 {
+  color: #FFF9FB;
+  text-align: center;
+  padding: 1%;
+}
+.contactPage header p {
+  color: #FFF9FB;
+  text-align: center;
+  padding: 1%;
+  width: 50%;
+  margin-left: 24%;
+}
+.contactPage .contact {
+  height: 75vh;
+  display: flex;
+  justify-content: center;
+}
+.contactPage form {
+  height: 60vh;
+  width: 50%;
+  padding: 1%;
+}
+.contactPage form input[type=text],
+.contactPage form select,
+.contactPage form textarea {
+  width: 100%;
+  padding: 12px;
+  border-radius: 4px;
+}
+.contactPage form label {
+  color: #FFF9FB;
+  text-align: center;
+  padding: 1%;
+  font-size: 25px;
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  padding: 3% 2% 1% 2%;
+}
+.contactPage form .btn {
+  margin: 3% 0% 0% 42%;
+  padding: 20px 50px;
+  color: #FFF9FB;
+  background-color: #550C18;
+  border-radius: 4px;
+  border: none;
+}
+.contactPage form .btn:hover {
+  color: #550C18;
+  background-color: #FFF9FB;
+}
+.thanksPage {
+  background-color: #292c2d;
+  background-image: linear-gradient(147deg, #292c2d 0%, #0d0e0e 37%, #292c2d 100%);
+}
+.thanksPage .thanks {
+  padding: 25%;
+}
+.thanksPage .thanks h1 {
+  color: #FFF9FB;
+  text-align: center;
+  padding: 1%;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #292c2d;
+}
+.thanksPage .thanks h3 {
+  color: #FFF9FB;
+  text-align: center;
+  padding: 1%;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #292c2d;
 }
