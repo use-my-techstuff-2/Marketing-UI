@@ -7,27 +7,52 @@
         
         h1 {
             .text(@site-white);
+            -webkit-text-stroke-width: 1px;
+            -webkit-text-stroke-color: #292c2d;
+            @media @phone {
+                font-size: 35px;
+                padding: 2%;
+            }
         }
         p {
             .text(@site-white);
             width: 50%;
             margin-left: 24%;
+            @media @tablet {
+                width: 85%;
+                margin-left: 8%;
+            }
+            @media @phone {
+                width: 90%;
+                margin-left: 4%;
+            }
         }
     }
     .contact {
         height: 75vh;
         display: flex;
         justify-content: center;
+        @media @tablet {
+            height: 55vh;
+        }
     }
     form {
         
         height: 60vh;
         width: 50%;
         padding: 1%;
+        @media @tablet {
+            height: 50vh;
+        }
+        @media @phone {
+            padding-top: 5%;
+        }
         input[type=text], select, textarea {
             width: 100%;
             padding: 12px;
             border-radius: 4px;
+            -webkit-text-stroke-width: 1px;
+            -webkit-text-stroke-color: #292c2d;
         }
         label {
             .text(@site-white);
@@ -36,9 +61,9 @@
             display: flex;
             justify-content: center;
             padding: 3% 2% 1% 2%;
-        }
-        .messageBox {
-
+            @media @phone {
+                font-size: 20px;
+            }
         }
         .btn {
             margin: 3% 0% 0% 42%;
@@ -47,6 +72,12 @@
             background-color: @site-red;
             border-radius: 4px;
             border: none;
+            @media @tablet {
+                margin: 10% 0% 0% 30%;
+            }
+            @media @phone {
+                margin: 10% 0% 0% 20%;
+            }
         }
         .btn:hover {
             color: @site-red;
