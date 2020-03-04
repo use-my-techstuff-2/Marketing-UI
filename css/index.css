@@ -236,7 +236,8 @@ nav .imgLogo {
 }
 .pics {
   display: flex;
-  margin: 0% 5% 3% 5%;
+  margin: 0% 6% 1% 5%;
+  border: 1px solid white;
 }
 .pics h3 {
   color: #FFF9FB;
