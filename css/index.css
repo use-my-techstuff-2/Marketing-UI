@@ -295,46 +295,106 @@ footer {
   color: #FFF9FB;
   text-align: center;
 }
+.page {
+  display: flex;
+  align-content: space-between;
+}
 .about {
   display: flex;
   justify-content: space-evenly;
+  background-color: #292c2d;
+  color: #FFF9FB;
 }
 .about img {
+  height: 40vh;
+  margin: 10px;
+  padding: 10px;
   width: 30%;
+  border: 3px solid #550C18;
+}
+@media (max-width: 500px) {
+  .about img {
+    width: 80%;
+    margin: 0 auto;
+  }
 }
 .about div {
   display: flex;
-  align-items: center;
+  align-content: center;
   flex-direction: column;
+  padding-top: 70px;
   width: 30%;
+}
+@media (max-width: 500px) {
+  .about div {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 500px) {
+  .about {
+    display: flex;
+    flex-direction: column;
+  }
 }
 .trust {
   display: flex;
   flex-direction: column;
-  width: 50%;
+  background-color: #292c2d;
+  padding: 2%;
   margin: 0 auto;
   justify-content: center;
   text-align: center;
+}
+.trust div {
+  color: #FFF9FB;
+  width: 60%;
+  margin: 0 auto;
 }
 .trust h2 {
   text-align: center;
 }
 .save {
+  padding: 1%;
   display: flex;
   justify-content: space-evenly;
+  background-color: #292c2d;
+  color: #FFF9FB;
 }
 .save img {
   width: 30%;
-  height: 500px;
+  height: 40vh;
+  border: 3px solid #550C18;
+  padding: 10px;
+}
+@media (max-width: 500px) {
+  .save img {
+    width: 80%;
+    margin: 0 auto;
+  }
 }
 .save div {
   display: flex;
   align-items: center;
   flex-direction: column;
+  padding-top: 70px;
   width: 30%;
+}
+@media (max-width: 500px) {
+  .save div {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 500px) {
+  .save {
+    display: flex;
+    flex-direction: column-reverse;
+  }
 }
 footer {
   padding: 1%;
-  color: black;
+  color: white;
   text-align: center;
+  background-color: #292c2d;
 }
