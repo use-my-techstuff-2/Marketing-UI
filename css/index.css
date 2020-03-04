@@ -329,6 +329,13 @@ footer p {
     margin: 0 auto;
   }
 }
+@media (max-width: 800px) {
+  .about img {
+    height: 20vh;
+    width: 30%;
+    margin-top: 50px;
+  }
+}
 .about div {
   display: flex;
   align-content: center;
@@ -372,6 +379,12 @@ footer p {
   background-color: #292c2d;
   color: #FFF9FB;
 }
+@media (max-width: 800px) {
+  .save {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
 .save img {
   width: 30%;
   height: 40vh;
@@ -382,6 +395,12 @@ footer p {
   .save img {
     width: 80%;
     margin: 0 auto;
+  }
+}
+@media (max-width: 800px) {
+  .save img {
+    margin: 0 auto;
+    width: 50%;
   }
 }
 .save div {
@@ -395,6 +414,12 @@ footer p {
   .save div {
     width: 80%;
     margin: 0 auto;
+  }
+}
+@media (max-width: 800px) {
+  .save div {
+    margin: 0 auto;
+    width: 50%;
   }
 }
 @media (max-width: 500px) {
