@@ -19,6 +19,11 @@
             width: 80%;
             margin: 0 auto;
         }
+        @media @tablet {
+            height: 20vh;
+            width: 30%;
+            margin-top: 50px;
+        }
     }
     div{
         display: flex;
@@ -68,7 +73,11 @@
     justify-content: space-evenly;
     background-color: #292c2d;
     color: #FFF9FB;
-
+    @media @tablet{
+        display: flex;
+        flex-direction: column-reverse;
+        
+    }
 
     img{
         width: 30%;
@@ -79,6 +88,12 @@
             width: 80%;
             margin: 0 auto;
         }
+        @media @tablet{
+            margin: 0 auto;
+            width: 50%;
+        }
+
+        
     }
     div{
         display: flex;
@@ -89,6 +104,10 @@
         @media @phone {
             width: 80%;
             margin: 0 auto;
+        }
+        @media @tablet{
+            margin: 0 auto;
+            width: 50%;
         }
     }
     @media @phone{
