@@ -269,6 +269,8 @@ nav .imgLogo {
   text-align: center;
   padding: 2%;
   color: #FFF9FB;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #292c2d;
 }
 @media (max-width: 500px) {
   .home header .homeBlip h1 {
@@ -334,6 +336,13 @@ nav .imgLogo {
 .body h2 {
   text-align: center;
   padding: 1%;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #292c2d;
+}
+.body p {
+  color: #FFF9FB;
+  text-align: center;
+  padding: 1%;
 }
 @media (max-width: 500px) {
   .body p {
@@ -362,6 +371,8 @@ nav .imgLogo {
   text-align: center;
   padding: 1%;
   font-size: 27px;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #292c2d;
 }
 @media (max-width: 500px) {
   .pics h3 {
@@ -446,6 +457,8 @@ nav .imgLogo {
   color: #FFF9FB;
   text-align: center;
   padding: 1%;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #292c2d;
 }
 .getStarted p {
   color: #FFF9FB;
@@ -620,6 +633,7 @@ footer {
   text-align: center;
   background-color: #292c2d;
 }
+
 .faq {
   display: flex;
   flex-direction: column;
@@ -647,3 +661,203 @@ footer {
     width: 80%;
   }
 }
+
+.contactPage {
+  background-color: #292c2d;
+  background-image: linear-gradient(147deg, #292c2d 0%, #0d0e0e 37%, #292c2d 100%);
+}
+.contactPage header {
+  padding: 7% 10% 3% 10%;
+}
+.contactPage header h1 {
+  color: #FFF9FB;
+  text-align: center;
+  padding: 1%;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #292c2d;
+}
+@media (max-width: 500px) {
+  .contactPage header h1 {
+    font-size: 35px;
+    padding: 2%;
+  }
+}
+.contactPage header p {
+  color: #FFF9FB;
+  text-align: center;
+  padding: 1%;
+  width: 50%;
+  margin-left: 24%;
+}
+@media (max-width: 800px) {
+  .contactPage header p {
+    width: 85%;
+    margin-left: 8%;
+  }
+}
+@media (max-width: 500px) {
+  .contactPage header p {
+    width: 90%;
+    margin-left: 4%;
+  }
+}
+.contactPage .contact {
+  height: 75vh;
+  display: flex;
+  justify-content: center;
+}
+@media (max-width: 800px) {
+  .contactPage .contact {
+    height: 55vh;
+  }
+}
+.contactPage form {
+  height: 60vh;
+  width: 50%;
+  padding: 1%;
+}
+@media (max-width: 800px) {
+  .contactPage form {
+    height: 50vh;
+  }
+}
+@media (max-width: 500px) {
+  .contactPage form {
+    padding-top: 5%;
+  }
+}
+.contactPage form input[type=text],
+.contactPage form select,
+.contactPage form textarea {
+  width: 100%;
+  padding: 12px;
+  border-radius: 4px;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #292c2d;
+}
+.contactPage form label {
+  color: #FFF9FB;
+  text-align: center;
+  padding: 1%;
+  font-size: 25px;
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  padding: 3% 2% 1% 2%;
+}
+@media (max-width: 500px) {
+  .contactPage form label {
+    font-size: 20px;
+  }
+}
+.contactPage form .btn {
+  margin: 3% 0% 0% 42%;
+  padding: 20px 50px;
+  color: #FFF9FB;
+  background-color: #550C18;
+  border-radius: 4px;
+  border: none;
+}
+@media (max-width: 800px) {
+  .contactPage form .btn {
+    margin: 10% 0% 0% 30%;
+  }
+}
+@media (max-width: 500px) {
+  .contactPage form .btn {
+    margin: 10% 0% 0% 20%;
+  }
+}
+.contactPage form .btn:hover {
+  color: #550C18;
+  background-color: #FFF9FB;
+}
+.thanksPage {
+  background-color: #292c2d;
+  background-image: linear-gradient(147deg, #292c2d 0%, #0d0e0e 37%, #292c2d 100%);
+}
+.thanksPage .thanks {
+  padding: 25%;
+}
+@media (max-width: 800px) {
+  .thanksPage .thanks {
+    padding: 25% 15%;
+    height: 90vh;
+  }
+}
+@media (max-width: 500px) {
+  .thanksPage .thanks {
+    padding: 30% 15%;
+    height: 80vh;
+  }
+}
+.thanksPage .thanks h1 {
+  color: #FFF9FB;
+  text-align: center;
+  padding: 1%;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #292c2d;
+}
+@media (max-width: 800px) {
+  .thanksPage .thanks h1 {
+    width: 100%;
+    font-size: 40px;
+  }
+}
+@media (max-width: 500px) {
+  .thanksPage .thanks h1 {
+    width: 100%;
+    font-size: 35px;
+    padding-bottom: 5%;
+  }
+}
+.thanksPage .thanks h3 {
+  color: #FFF9FB;
+  text-align: center;
+  padding: 1%;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #292c2d;
+}
+@media (max-width: 800px) {
+  .thanksPage .thanks h3 {
+    width: 100%;
+    font-size: 25px;
+  }
+}
+@media (max-width: 500px) {
+  .thanksPage .thanks h3 {
+    width: 100%;
+    font-size: 20px;
+  }
+}
+.thanksPage .thanks .btn {
+  margin: 1%;
+  width: 15%;
+  padding: 15px 25px;
+  margin-left: 41%;
+  text-align: center;
+  color: #FFF9FB;
+  background-color: #550C18;
+  border-radius: 4px;
+  border: none;
+}
+@media (max-width: 800px) {
+  .thanksPage .thanks .btn {
+    margin: 10% 5% 5% 30%;
+    width: 40%;
+    padding: 20px 40px;
+    font-size: 15px;
+  }
+}
+@media (max-width: 500px) {
+  .thanksPage .thanks .btn {
+    width: 50%;
+    padding: 20px 40px;
+    margin-left: 25%;
+  }
+}
+.thanksPage .thanks .btn:hover {
+  color: #550C18;
+  background-color: #FFF9FB;
+}
+
