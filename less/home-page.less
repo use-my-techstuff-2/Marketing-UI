@@ -15,18 +15,18 @@
             font-size: 3.5rem;
             text-align: center;
             padding: 2%;
-            color: #FFF9FB;
+            color: @text-color;
         }
         p {
             padding: 3%;
             display: flex;
-            color: #FFF9FB;
+            color: @text-color;
         }
     }
     .homeImg {
         height: 60vh;
         padding: 1%;
-        border: 3px solid #550C18;
+        border: 3px solid @border-red;
         display: flex;
 
     }
@@ -38,7 +38,7 @@
     display:flex;
     flex-flow: column wrap;
     padding: 3% 0%;
-    color: #FFF9FB;
+    color: @text-color;
     h2 {
         text-align: center;
         padding: 1%;
@@ -47,17 +47,13 @@
 
 .pics {
     display: flex;
-    margin: 0% 5% 3% 5%;
-
+    margin: 0% 6% 1% 5%;
+    border: 1px solid white;
     h3 {
-        color: #FFF9FB;
-        text-align: center;
-        padding: 1%;
+        .text(@text-color);
     }
     p {
-        color: #FFF9FB;
-        text-align: center;
-        padding: 1%;
+        .text(@text-color);
     }
     .picBlockOne {
         margin: 0% 10% 0% 5%;
@@ -65,7 +61,7 @@
         flex-direction: column;
         .cameraImg {
             padding: 2%;
-            border: 3px solid #550C18;
+            border: 3px solid @border-red;
         }
     
     }
@@ -75,7 +71,7 @@
         flex-direction: column;
         .echoImg {
             padding: 2%;
-            border: 3px solid #550C18;
+            border: 3px solid @border-red;
         }
     }
 }
@@ -88,14 +84,10 @@
     justify-content: center;
     flex-direction: column;
     h3 {
-        color: #FFF9FB;
-        text-align: center;
-        padding: 1%;
+        .text(@text-color);
     }
     p {
-        color: #FFF9FB;
-        text-align: center;
-        padding: 1%;
+        .text(@text-color);
     }
     .btn {
         margin: 1%; 
@@ -106,7 +98,7 @@
 
 footer {
     padding: 1%;
-    color: #FFF9FB;
+    color: @text-color;
     text-align: center;
 
 }
