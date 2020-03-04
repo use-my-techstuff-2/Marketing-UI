@@ -8,11 +8,24 @@ nav {
     background-image: linear-gradient(to right top, #930000, #8a0001, #810102, #790103, #700203, #700203, #700203, #700203, #790103, #810102, #8a0001, #930000);
     display:flex;
     flex-wrap: wrap;
-
+    @media @phone {
+        height: 10%;
+        flex-direction: column;
+    }
+    @media @tablet {
+        height: 10%;
+        flex-direction: column;
+    }
     .navContainer {
         width: 89%;
         display: flex;
         justify-content: space-around;
+        @media @phone {
+            width: 100%;
+        }
+        @media @tablet {
+            width: 100%;
+        }
 
         a {
             font-size: 25px;
@@ -23,10 +36,23 @@ nav {
             height: 10vh; 
             display: flex;
             align-items: center;
+            @media @phone {
+                flex-flow: reverse-column wrap;
+            }
+            @media @tablet {
+                flex-flow: reverse-column wrap;
+            }
         }
     }
     .imgLogo {
         display: flex;
-
+        @media @phone {
+            width: 50%;
+            margin: 1% 25%;
+        }
+        @media @tablet {
+            width: 50%;
+            margin: 1% 25%;
+        }
     }
 }

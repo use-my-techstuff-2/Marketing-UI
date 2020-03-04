@@ -172,10 +172,32 @@ nav {
   display: flex;
   flex-wrap: wrap;
 }
+@media (max-width: 500px) {
+  nav {
+    height: 10%;
+    flex-direction: column;
+  }
+}
+@media (max-width: 800px) {
+  nav {
+    height: 10%;
+    flex-direction: column;
+  }
+}
 nav .navContainer {
   width: 89%;
   display: flex;
   justify-content: space-around;
+}
+@media (max-width: 500px) {
+  nav .navContainer {
+    width: 100%;
+  }
+}
+@media (max-width: 800px) {
+  nav .navContainer {
+    width: 100%;
+  }
 }
 nav .navContainer a {
   font-size: 25px;
@@ -187,8 +209,30 @@ nav .navContainer a {
   display: flex;
   align-items: center;
 }
+@media (max-width: 500px) {
+  nav .navContainer a {
+    flex-flow: reverse-column wrap;
+  }
+}
+@media (max-width: 800px) {
+  nav .navContainer a {
+    flex-flow: reverse-column wrap;
+  }
+}
 nav .imgLogo {
   display: flex;
+}
+@media (max-width: 500px) {
+  nav .imgLogo {
+    width: 50%;
+    margin: 1% 25%;
+  }
+}
+@media (max-width: 800px) {
+  nav .imgLogo {
+    width: 50%;
+    margin: 1% 25%;
+  }
 }
 .home {
   background-color: #292c2d;
@@ -206,22 +250,67 @@ nav .imgLogo {
   width: 28%;
   margin: 8% 5% 7% 15%;
 }
+@media (max-width: 500px) {
+  .home header .homeBlip {
+    width: 100%;
+    height: 60%;
+    margin: 1%;
+  }
+}
+@media (max-width: 800px) {
+  .home header .homeBlip {
+    width: 100%;
+    height: 60%;
+    margin: 1%;
+  }
+}
 .home header .homeBlip h1 {
   font-size: 3.5rem;
   text-align: center;
   padding: 2%;
   color: #FFF9FB;
 }
+@media (max-width: 500px) {
+  .home header .homeBlip h1 {
+    margin: 1%;
+  }
+}
 .home header .homeBlip p {
   padding: 3%;
   display: flex;
   color: #FFF9FB;
 }
+@media (max-width: 500px) {
+  .home header .homeBlip p {
+    margin: 1%;
+    padding: 0% 2%;
+    text-align: center;
+  }
+}
+@media (max-width: 800px) {
+  .home header .homeBlip p {
+    margin: 1%;
+    padding: 0% 2%;
+    text-align: center;
+  }
+}
 .home header .homeImg {
   height: 60vh;
   padding: 1%;
   border: 3px solid #550C18;
+  border-radius: 4px;
   display: flex;
+}
+@media (max-width: 500px) {
+  .home header .homeImg {
+    height: 37vh;
+    margin: 2%;
+  }
+}
+@media (max-width: 800px) {
+  .home header .homeImg {
+    margin: 1%;
+  }
 }
 .body {
   width: 50%;
@@ -230,19 +319,59 @@ nav .imgLogo {
   padding: 3% 0%;
   color: #FFF9FB;
 }
+@media (max-width: 500px) {
+  .body {
+    margin: 2%;
+    width: 96%;
+  }
+}
+@media (max-width: 800px) {
+  .body {
+    margin: 2%;
+    width: 96%;
+  }
+}
 .body h2 {
   text-align: center;
   padding: 1%;
 }
+@media (max-width: 500px) {
+  .body p {
+    padding: 2%;
+    text-align: center;
+  }
+}
+@media (max-width: 800px) {
+  .body p {
+    padding: 2%;
+    padding-bottom: 0%;
+    text-align: center;
+  }
+}
 .pics {
   display: flex;
   margin: 0% 5% 1% 5%;
+}
+@media (max-width: 500px) {
+  .pics {
+    flex-flow: column wrap;
+  }
 }
 .pics h3 {
   color: #FFF9FB;
   text-align: center;
   padding: 1%;
   font-size: 27px;
+}
+@media (max-width: 500px) {
+  .pics h3 {
+    display: none;
+  }
+}
+@media (max-width: 800px) {
+  .pics h3 {
+    display: none;
+  }
 }
 .pics p {
   color: #FFF9FB;
@@ -254,18 +383,44 @@ nav .imgLogo {
   display: flex;
   flex-direction: column;
 }
+@media (max-width: 500px) {
+  .pics .picBlockOne {
+    width: 100%;
+    margin: 0%;
+    padding: 5%;
+  }
+}
+@media (max-width: 800px) {
+  .pics .picBlockOne {
+    width: 100%;
+  }
+}
 .pics .picBlockOne .cameraImg {
   padding: 2%;
   border: 3px solid #550C18;
+  border-radius: 4px;
 }
 .pics .picBlockTwo {
   margin: 0% 5% 0% 0%;
   display: flex;
   flex-direction: column;
 }
+@media (max-width: 500px) {
+  .pics .picBlockTwo {
+    width: 100%;
+    margin: 0%;
+    padding: 5%;
+  }
+}
+@media (max-width: 800px) {
+  .pics .picBlockTwo {
+    width: 100%;
+  }
+}
 .pics .picBlockTwo .echoImg {
   padding: 2%;
   border: 3px solid #550C18;
+  border-radius: 4px;
 }
 .getStarted {
   width: 50%;
@@ -274,6 +429,18 @@ nav .imgLogo {
   display: flex;
   justify-content: center;
   flex-direction: column;
+}
+@media (max-width: 500px) {
+  .getStarted {
+    margin: 1%;
+    width: 100%;
+  }
+}
+@media (max-width: 800px) {
+  .getStarted {
+    margin: 1%;
+    width: 97%;
+  }
 }
 .getStarted h3 {
   color: #FFF9FB;
@@ -285,15 +452,34 @@ nav .imgLogo {
   text-align: center;
   padding: 1%;
 }
+@media (max-width: 500px) {
+  .getStarted p {
+    padding: 7%;
+  }
+}
 .getStarted .btn {
   margin: 1%;
   width: 15%;
   padding: 15px 25px;
-  align-self: center;
+  margin-left: 41%;
+  text-align: center;
   color: #FFF9FB;
   background-color: #550C18;
   border-radius: 4px;
   border: none;
+}
+@media (max-width: 800px) {
+  .getStarted .btn {
+    width: 20%;
+    padding: 12px 37px;
+  }
+}
+@media (max-width: 500px) {
+  .getStarted .btn {
+    width: 35%;
+    padding: 12px 37px;
+    margin-left: 32%;
+  }
 }
 .getStarted .btn:hover {
   color: #550C18;
