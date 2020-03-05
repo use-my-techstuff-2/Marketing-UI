@@ -236,6 +236,11 @@ nav .imgLogo {
     margin: 1% 25%;
   }
 }
+footer {
+  padding: 1%;
+  color: white;
+  text-align: center;
+}
 .home {
   background-color: #292c2d;
   background-image: linear-gradient(147deg, #292c2d 0%, #0d0e0e 37%, #292c2d 100%);
@@ -250,7 +255,7 @@ nav .imgLogo {
 .home header .homeBlip {
   height: 30vh;
   width: 25%;
-  margin: 10% 10% 7% 10%;
+  margin: 10% 10% 7% 15%;
 }
 @media (max-width: 500px) {
   .home header .homeBlip {
@@ -508,6 +513,10 @@ footer p {
   color: #FFF9FB;
   text-align: center;
 }
+.aboutPage {
+  background-color: #292c2d;
+  background-image: linear-gradient(147deg, #292c2d 0%, #0d0e0e 37%, #292c2d 100%);
+}
 .page {
   display: flex;
   align-content: space-between;
@@ -515,8 +524,11 @@ footer p {
 .about {
   display: flex;
   justify-content: space-evenly;
-  background-color: #292c2d;
   color: #FFF9FB;
+}
+.about h2 {
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #292c2d;
 }
 .about img {
   height: 40vh;
@@ -560,14 +572,20 @@ footer p {
     flex-direction: column;
   }
 }
+@media (max-width: 800px) {
+  .about {
+    margin-bottom: 3%;
+  }
+}
 .trust {
   display: flex;
   flex-direction: column;
-  background-color: #292c2d;
   padding: 2%;
   margin: 0 auto;
   justify-content: center;
+  color: #FFF9FB;
   text-align: center;
+  padding: 1%;
 }
 .trust div {
   color: #FFF9FB;
@@ -576,13 +594,19 @@ footer p {
 }
 .trust h2 {
   text-align: center;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #292c2d;
 }
 .save {
-  padding: 1%;
   display: flex;
   justify-content: space-evenly;
-  background-color: #292c2d;
   color: #FFF9FB;
+  text-align: center;
+  padding: 1%;
+}
+.save h2 {
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #292c2d;
 }
 @media (max-width: 800px) {
   .save {
@@ -633,19 +657,22 @@ footer p {
     flex-direction: column-reverse;
   }
 }
-footer {
-  padding: 1%;
-  color: white;
-  text-align: center;
+.faqPage {
   background-color: #292c2d;
+  background-image: linear-gradient(147deg, #292c2d 0%, #0d0e0e 37%, #292c2d 100%);
 }
 .faq {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  background-color: #292c2d;
-  color: #FFF9FB;
   height: 90vh;
+  color: #FFF9FB;
+  text-align: center;
+  padding: 1%;
+}
+.faq h2 {
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #292c2d;
 }
 @media (max-width: 500px) {
   .faq {
