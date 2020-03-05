@@ -209,12 +209,16 @@ nav .navContainer a {
 }
 @media (max-width: 500px) {
   nav .navContainer a {
-    flex-flow: reverse-column wrap;
+    width: 100%;
+    border-bottom: 1px solid white;
+    justify-content: center;
   }
 }
 @media (max-width: 800px) {
   nav .navContainer a {
-    flex-flow: reverse-column wrap;
+    width: 100%;
+    border-bottom: 1px solid white;
+    justify-content: center;
   }
 }
 nav .imgLogo {
@@ -245,8 +249,8 @@ nav .imgLogo {
 }
 .home header .homeBlip {
   height: 30vh;
-  width: 28%;
-  margin: 8% 5% 7% 15%;
+  width: 25%;
+  margin: 10% 10% 7% 10%;
 }
 @media (max-width: 500px) {
   .home header .homeBlip {
@@ -297,6 +301,7 @@ nav .imgLogo {
 .home header .homeImg {
   height: 60vh;
   padding: 1%;
+  margin-top: 3%;
   border: 3px solid #550C18;
   border-radius: 4px;
   display: flex;
@@ -515,8 +520,8 @@ footer p {
 }
 .about img {
   height: 40vh;
-  margin: 10px;
-  padding: 10px;
+  margin: 3% 1% 1% 1%;
+  padding: 1%;
   width: 30%;
   border: 3px solid #550C18;
 }
@@ -534,6 +539,9 @@ footer p {
   }
 }
 .about div {
+  color: #FFF9FB;
+  text-align: center;
+  padding: 1%;
   display: flex;
   align-content: center;
   flex-direction: column;
