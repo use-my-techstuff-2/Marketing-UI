@@ -646,6 +646,11 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    align-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 250%;
+    font-size: 0.7rem;
   }
 }
 .faq div {
@@ -654,11 +659,6 @@ footer {
   text-align: center;
   width: 80%;
   margin: 0 auto;
-}
-@media (max-width: 500px) {
-  .faq div {
-    width: 80%;
-  }
 }
 .contactPage {
   background-color: #292c2d;
