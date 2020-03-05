@@ -633,6 +633,35 @@ footer {
   text-align: center;
   background-color: #292c2d;
 }
+
+.faq {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: #292c2d;
+  color: #FFF9FB;
+  height: 90vh;
+}
+@media (max-width: 500px) {
+  .faq {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+}
+.faq div {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+}
+@media (max-width: 500px) {
+  .faq div {
+    width: 80%;
+  }
+}
+
 .contactPage {
   background-color: #292c2d;
   background-image: linear-gradient(147deg, #292c2d 0%, #0d0e0e 37%, #292c2d 100%);
@@ -836,3 +865,4 @@ footer {
   color: #550C18;
   background-color: #FFF9FB;
 }
+
