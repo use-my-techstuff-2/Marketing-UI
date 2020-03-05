@@ -5,12 +5,13 @@
         width: 100%;
         padding: 1%;
         display: flex;
-        justify-content: column;
         flex-wrap: wrap;
+        
         .homeBlip {
             height: 30vh;
             width: 25%;
             margin: 10% 10% 7% 15%;
+            
             @media @phone {
                 width: 100%;
                 height: 60%;
@@ -20,6 +21,12 @@
                 width: 100%;
                 height: 60%;
                 margin: 1%;
+            }
+            @media @medium {
+                display: flex;
+                flex-direction: column;
+                width: 100%;
+                height: 10%;
             }
         h1 {
             font-size: 3.5rem;
@@ -31,12 +38,16 @@
             @media @phone {
                 margin: 1%;
             }
+            @media @medium {
+                width: 100%;
+                font-size: 50px;
+            }
         }
         p {
             padding: 3%;
             display: flex;
             color: @text-color;
-            
+            .text(@site-white);
             @media @phone {
                 margin: 1%;
                 padding: 0% 2%;
@@ -47,6 +58,11 @@
                 padding: 0% 2%;
                 text-align: center;
             }
+            @media @medium {
+                font-size: 20px;
+                padding-top: 2%;
+                padding-bottom: 0%;
+            }
         }
     }
     .homeImg {
@@ -56,6 +72,10 @@
         border: 3px solid @border-red;
         border-radius: 4px;
         display: flex;
+        @media @medium {
+            margin-left: 26%;
+            margin-top: 0%;
+        }
         @media @phone {
             height: 37vh;
             margin: 2%;
@@ -63,6 +83,8 @@
         @media @tablet {
             margin: 1%;
         }
+
+
     }
 }
 }
@@ -118,6 +140,10 @@
         }
         @media @tablet {
             display: none;
+        }
+        @media @medium {
+            width: 100%;
+            font-size: 23px;
         }
     }
     p {
@@ -190,10 +216,11 @@
         }
     }
     .btn {
-        margin: 1%; 
-        width: 15%;
+        margin: 1%;
+        margin-top: 3%; 
+        width: 20%;
         padding: 15px 25px;
-        margin-left: 41%;
+        margin-left: 39%;
         text-align: center;
         color: @site-white;
         background-color: @site-red;
@@ -207,6 +234,10 @@
             width: 35%;
             padding: 12px 37px;
             margin-left: 32%;
+        }
+        @media @medium {
+            width: 30%;
+            margin-left: 36%;
         }
     }
     .btn:hover {
