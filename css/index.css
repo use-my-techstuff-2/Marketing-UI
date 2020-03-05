@@ -736,6 +736,7 @@ footer p {
   height: 75vh;
   display: flex;
   justify-content: center;
+  flex-direction: column;
 }
 @media (max-width: 800px) {
   .contactPage .contact {
@@ -747,9 +748,32 @@ footer p {
     height: 55vh;
   }
 }
+.contactPage .btn {
+  margin: 3% 0% 0% 46%;
+  padding: 20px 50px;
+  color: #FFF9FB;
+  background-color: #550C18;
+  border-radius: 4px;
+  border: none;
+}
+@media (max-width: 800px) {
+  .contactPage .btn {
+    margin: 10% 0% 0% 30%;
+  }
+}
+@media (max-width: 500px) {
+  .contactPage .btn {
+    margin: 10% 0% 0% 20%;
+  }
+}
+.contactPage .btn:hover {
+  color: #550C18;
+  background-color: #FFF9FB;
+}
 .contactPage form {
   height: 60vh;
   width: 50%;
+  margin-left: 25%;
   padding: 1%;
 }
 @media (max-width: 800px) {
@@ -785,28 +809,6 @@ footer p {
   .contactPage form label {
     font-size: 20px;
   }
-}
-.contactPage form .btn {
-  margin: 3% 0% 0% 42%;
-  padding: 20px 50px;
-  color: #FFF9FB;
-  background-color: #550C18;
-  border-radius: 4px;
-  border: none;
-}
-@media (max-width: 800px) {
-  .contactPage form .btn {
-    margin: 10% 0% 0% 30%;
-  }
-}
-@media (max-width: 500px) {
-  .contactPage form .btn {
-    margin: 10% 0% 0% 20%;
-  }
-}
-.contactPage form .btn:hover {
-  color: #550C18;
-  background-color: #FFF9FB;
 }
 .thanksPage {
   background-color: #292c2d;
