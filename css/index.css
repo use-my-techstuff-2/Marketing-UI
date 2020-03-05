@@ -633,7 +633,6 @@ footer {
   text-align: center;
   background-color: #292c2d;
 }
-
 .faq {
   display: flex;
   flex-direction: column;
@@ -661,13 +660,12 @@ footer {
     width: 80%;
   }
 }
-
 .contactPage {
   background-color: #292c2d;
   background-image: linear-gradient(147deg, #292c2d 0%, #0d0e0e 37%, #292c2d 100%);
 }
 .contactPage header {
-  padding: 7% 10% 3% 10%;
+  padding: 7% 10% 1% 10%;
 }
 .contactPage header h1 {
   color: #FFF9FB;
@@ -707,6 +705,11 @@ footer {
   justify-content: center;
 }
 @media (max-width: 800px) {
+  .contactPage .contact {
+    height: 65vh;
+  }
+}
+@media (max-width: 500px) {
   .contactPage .contact {
     height: 55vh;
   }
@@ -860,4 +863,3 @@ footer {
   color: #550C18;
   background-color: #FFF9FB;
 }
-
